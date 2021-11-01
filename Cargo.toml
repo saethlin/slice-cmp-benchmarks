@@ -1,0 +1,13 @@
+[package]
+name = "slice-cmp-benchmarks"
+version = "0.0.0"
+authors = ["Ben Kimock <kimockb@gmail.com>"]
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "main"
+harness = false
